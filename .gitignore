@@ -1,0 +1,12 @@
+/public/
+/resources/
+/layouts/_default/_markup/render-heading.html
+
+.DS_Store
+i18n
+config.toml
+config.yaml
+config.json
+.hugo_build.lock
+hugo_stats.json
+go.sum

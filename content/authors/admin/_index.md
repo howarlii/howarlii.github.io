@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 李珲
+title: Hui LI 李珲
 
 # Name pronunciation (optional)
-name_pronunciation: Hui LI
+# name_pronunciation: 李珲
 
 # Full name (for SEO)
 first_name: Hui
@@ -24,7 +24,7 @@ role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: the Chinese University of Hong Kong
+  - name: The Chinese University of Hong Kong
     # url: https://openai.com/
 
 # Social network links
@@ -52,10 +52,10 @@ interests:
   - LMsys
 
 education:
-  - area: PhD Computer Science
-    institution: the Chinese University of Hong Kong
-    date_start: 2024-08
-    date_end: exp 2028
+  - area: Ph.D. Computer Science
+    institution: The Chinese University of Hong Kong
+    date_start: 2024-08-01
+    date_end: 2028-08-01
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     # button:
@@ -72,10 +72,10 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Software Engineering
+  - area: B.Sc. Software Engineering
     institution: South China University of Technology
-    date_start: 2020-09
-    date_end: 2024-07
+    date_start: 2020-09-01
+    date_end: 2024-07-01
     # summary: |
     #   GPA: 3.4/4.0
 
@@ -84,23 +84,23 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Software Engineering Intern
-    company_name: JQ Investments (佳期投资)
+  - position: JQ Investments (佳期投资)
+    company_name: Software Engineer Intern
     # company_url: ''
     # company_logo: ''
-    date_start: 2023-07
-    # date_end: ''
+    date_start: '2023-07-01'
+    date_end: '2023-09-01'
     # summary: |2-
     #   Responsibilities include:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Software Algorithm Engineer
-    company_name: Huawei Technologies
+  - position: Huawei Technologies
+    company_name: Software Algorithm Engineer Intern
     # company_url: ''
     # company_logo: ''
-    date_start: 2023-01
-    # date_end: 2020-12-31
+    date_start: '2022-12-01'
+    date_end: '2023-03-01'
     # summary: |
     #   Responsibilities include:
     #   - Migrated infrastructure to a new data center
@@ -155,15 +155,15 @@ work:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: ACM International Collegiate Programming Contest (ICPC2022) Nanjing Region
-    date: '2022-12'
+    date: '2022-12-01'
     awarder: Gold Medal
     icon: trophy
   - title: ACM International Collegiate Programming Contest (ICPC2022) Xi'an region
-    date: '2022-11'
+    date: '2022-11-01'
     awarder: Gold Medal
     icon: trophy
   - title: ACM International Collegiate Programming Contest (ICPC2021) Asia East Continent Final
-    date: '2022-07'
+    date: '2022-07-01'
     awarder: Gold Medal
     icon: trophy
 
