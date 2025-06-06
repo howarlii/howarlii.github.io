@@ -1,0 +1,7 @@
+.bg-adaptive {
+  background-color: #fafafa;
+}
+body.dark .bg-adaptive,
+html.dark .bg-adaptive {
+  background-color: #232323 !important;
+}

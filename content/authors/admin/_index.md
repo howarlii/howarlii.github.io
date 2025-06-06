@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Hui LI 李珲
+title: Hui Li
 
 # Name pronunciation (optional)
 # name_pronunciation: 李珲
 
 # Full name (for SEO)
 first_name: Hui
-last_name: LI
+last_name: Li
 
 # Status emoji
 # status:
@@ -30,13 +30,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: hero/envelope-solid
     url: 'mailto:hli@cse.cuhk.edu.hk'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/howarlii
   # - icon: brands/linkedin
@@ -45,17 +41,20 @@ profiles:
   #   url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/0009-0009-0772-6588
+  - icon: custom/codeforces
+    url: https://codeforces.com/profile/Howarli
+  - icon: custom/zhihu
+    url: https://www.zhihu.com/people/howarli
 
 interests:
-  - Vector Search
   - Vecter Database
-  - LMsys
+  - Machine Learning System
 
 education:
   - area: Ph.D. Computer Science
     institution: The Chinese University of Hong Kong
     date_start: 2024-08-01
-    date_end: 2028-08-01
+    # date_end: 2028-08-01
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     # button:
@@ -153,19 +152,19 @@ work:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: ACM International Collegiate Programming Contest (ICPC2022) Nanjing Region
-    date: '2022-12-01'
-    awarder: Gold Medal
-    icon: trophy
-  - title: ACM International Collegiate Programming Contest (ICPC2022) Xi'an region
-    date: '2022-11-01'
-    awarder: Gold Medal
-    icon: trophy
-  - title: ACM International Collegiate Programming Contest (ICPC2021) Asia East Continent Final
-    date: '2022-07-01'
-    awarder: Gold Medal
-    icon: trophy
+# awards:
+#   - title: ACM International Collegiate Programming Contest (ICPC2022) Nanjing Region
+#     date: '2022-12-01'
+#     awarder: Gold Medal
+#     icon: trophy
+#   - title: ACM International Collegiate Programming Contest (ICPC2022) Xi'an region
+#     date: '2022-11-01'
+#     awarder: Gold Medal
+#     icon: trophy
+#   - title: ACM International Collegiate Programming Contest (ICPC2021) Asia East Continent Final
+#     date: '2022-07-01'
+#     awarder: Gold Medal
+#     icon: trophy
 
   # - title: Blockchain Fundamentals
   #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
@@ -176,7 +175,7 @@ awards:
   #     Learned:
   #     - Synthesize your own blockchain solutions
   #     - Gain an in-depth understanding of the specific mechanics of Bitcoin
-  #     - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+  #     - Understand Bitcoin's real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin's Proof-of-Work consensus algorithm
   # - title: 'Object-Oriented Programming in R'
   #   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
   #   certificate_url: https://www.datacamp.com
@@ -189,6 +188,8 @@ awards:
 
 ## About Me
 
-Hui LI is a PhD student at the Husky Data Lab, CUHK. He is recently working on vector databases and machine learning systems.
+I'm Hui LI (李珲), a first-year Ph.D. student in the Department of Computer Science and Engineering at The Chinese University of Hong Kong (CUHK), supervised by [Prof. James Cheng](https://www.cse.cuhk.edu.hk/~jcheng). Before joining CUHK, I got my B.S. degree in the School of Software Engineering from South China University of Technology (SCUT) in 2024. My current research interests include Vector Database and Machine Learning Systems.
+
+<!-- Hui LI is a PhD student at the Husky Data Lab, CUHK. He is recently working on vector databases and machine learning systems. -->
 
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
