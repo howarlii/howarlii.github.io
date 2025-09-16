@@ -283,9 +283,19 @@ redirect_from:
   </ul>
 </div> -->
 
-<p align="center" style="padding-top: 40px;">
-  <a href="https://clustrmaps.com/site/1c7yf"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=s-Hs5ZcE5y8reoija2BYQTMo1ypmcePJgqHvARqGhrU&cl=ffffff" /></a>
+<p align="center" style="padding-top: 20px;">
+  <a href="https://clustrmaps.com/site/1c7yf" title="ClustrMaps" target="_blank" rel="noopener">
+    <img
+      src="https://www.clustrmaps.com/map_v2.png?d=s-Hs5ZcE5y8reoija2BYQTMo1ypmcePJgqHvARqGhrU&cl=ffffff&w=300&t=tt"
+      alt="Visitor map"
+      width="100"
+      height="80"
+      style="max-width:50%; height:auto; border:0;"
+      referrerpolicy="no-referrer-when-downgrade"
+    />
+  </a>
 </p>
+
 <p align="center" style="padding-top: 100px;">
 </p>
 
