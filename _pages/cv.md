@@ -8,14 +8,14 @@ redirect_from:
 ---
 
 <div class="cv-container">
-  <h1 class="section-heading"><span>English Version</span></h1>
+  <!-- <h1 class="section-heading"><span>English Version</span></h1>
   <div class="cv-download">
     <p>You can download a PDF copy of my English CV <a href="/files/Aiwei-Liu-CV-EN.pdf">here</a>.</p>
   </div>
 
   <div class="pdf-container">
     <iframe src="/files/Aiwei-Liu-CV-EN.pdf" width="100%" height="600" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
-  </div>
+  </div> -->
 
   <!-- <h1 class="section-heading"><span>中文版本</span></h1>
   <div class="cv-download">
