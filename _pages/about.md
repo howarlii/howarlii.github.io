@@ -284,9 +284,7 @@ redirect_from:
 </div> -->
 
 <p align="center" style="padding-top: 40px;">
-  <a href="https://clustrmaps.com/site/1bz29" title="Visit tracker">
-    <img src="//clustrmaps.com/map_v2.png?d=DX15I5ozLq5Q-wR0ekcNB17qazZ99Mm2sOgYD9FXvrM&cl=ffffff&w=300&t=tt&d=DX15I5ozLq5Q-wR0ekcNB17qazZ99Mm2sOgYD9FXvrM" />
-  </a>
+  <a href="https://clustrmaps.com/site/1c7yf"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=s-Hs5ZcE5y8reoija2BYQTMo1ypmcePJgqHvARqGhrU&cl=ffffff" /></a>
 </p>
 <p align="center" style="padding-top: 100px;">
 </p>

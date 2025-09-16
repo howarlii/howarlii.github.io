@@ -4,3 +4,6 @@
 .DS_Store
 
 vendor/
+
+.sass-cache/
+_site/
