@@ -12,6 +12,8 @@ redirect_from:
 
    <p>My current research interests include Vector Database and Machine Learning Systems.</p>
 
+   <p>You can download my CV here: [<a href="../files/LiHui_cv_251028.pdf">CV</a>]</p>
+
   <p><strong>Welcome to collaborate!</strong> If you're interested in research collaboration on Vector Quantization, ANNS Systems or other related topics, please feel free to contact me.</p>
 </div>
 
