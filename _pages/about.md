@@ -23,15 +23,28 @@ redirect_from:
 
 <div class="paper-container">
 <div class="paper-image">
-<img src="images/saq-intro-fig.svg" alt="LLM Watermarking Overview">
+<img src="images/saq-intro-fig.svg" alt="SAQ Overview">
 </div>
 <div class="paper-text">
 <div class="paper-title">SAQ: Pushing the Limits of Vector Quantization through CodeAdjustment and Dimension Segmentation</div>
 <p class="paper-authors"><strong style="text-decoration-line: underline;">Hui Li</strong>, Shiyuan Deng, Xiao Yan, Xiangyu Zhi, James Cheng</p>
-<p class="paper-venue">Proceedings of SIGMOD 2026 </p>
+<p class="paper-venue">Proceedings of SIGMOD'2026 </p>
 <p class="paper-links"><a href="https://arxiv.org/pdf/2509.12086">[Paper]</a> <a href="https://github.com/howarlii/SAQ">[Code]</a> </p>
 <!-- <p class="paper-links"><a href="https://arxiv.org/pdf/2509.12086">[Paper]</a> <a href="https://github.com/howarlii/SAQ">[Code]</a> <a href="https://iclr.cc/virtual/2025/poster/">[Conference Page]</a> <a href="files/water">[Poster]</a><a href="files/">[Slides]</a> </p> -->
 </div>
+</div>
+
+<div class="paper-container">
+  <div class="paper-image">
+    <img src="images/distvs_sys_overview.svg" alt="DistVS Overview">
+  </div>
+  <div class="paper-text">
+    <div class="paper-title">DistVS: Large-scale Vector Search with Compute-Memory Disaggregation</div>
+    <p class="paper-authors">Peiqi Yin, Xiao Yan, Shiyuan Deng, <strong style="text-decoration-line: underline;">Hui Li</strong>, Yifan Zhu, Xiangyu Zhi, Jingqi Mao, Ran Xu, Wenliang Zhang, James Cheng</p>
+    <p class="paper-venue">Proceedings of NSDI'26 </p>
+    <!-- <p class="paper-links"><a href="https://arxiv.org/pdf/2509.12086">[Paper]</a> <a href="https://github.com/howarlii/SAQ">[Code]</a> </p> -->
+    <!-- <p class="paper-links"><a href="https://arxiv.org/pdf/2509.12086">[Paper]</a> <a href="https://github.com/howarlii/SAQ">[Code]</a> <a href="https://iclr.cc/virtual/2025/poster/">[Conference Page]</a> <a href="files/water">[Poster]</a><a href="files/">[Slides]</a> </p> -->
+  </div>
 </div>
 
 <div class="paper-container">
@@ -41,6 +54,7 @@ redirect_from:
 <div class="paper-text">
 <div class="paper-title">Gorgeous: Revisiting the Data Layout for Disk-Resident High-Dimensional Vector Search</div>
 <p class="paper-authors">Peiqi Yin, Xiao Yan, Qihui Zhou, <strong style="text-decoration-line: underline;">Hui Li</strong>, Xiaolu Li, Lin Zhang, Meiling Wang, Xin Yao, James Cheng</p>
+<p class="paper-venue">Proceedings of SIGMOD'2026 </p>
 <!-- <p class="paper-venue">Proceedings of ICLR 2025 <span class="spotlight-badge">Spotlight, top 5%</span></p> -->
 <p class="paper-links"><a href="https://arxiv.org/abs/2508.15290">[Paper]</a> <a href="https://github.com/yinpeiqi/Gorgeous">[Code]</a>  </p>
 </div>
