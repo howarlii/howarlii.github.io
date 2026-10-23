@@ -1,9 +1,10 @@
 .DS_Store
-*.DS_Store
-.DS_Store
-.DS_Store
-
 vendor/
-
+node_modules/
+.bundle/
 .sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 _site/
+_site-preview/
+__pycache__/

@@ -1,0 +1,249 @@
+/* Site additions to AcademicPages. Keep theme internals in _sass upstream. */
+:root {
+  --global-masthead-link-color: #7a8288;
+  --global-masthead-link-color-hover: #5c6266;
+  --site-body-bg: #fcfcfc;
+  --site-body-text: #333;
+  --site-strong-text: #000;
+  --site-secondary-text: #444;
+  --site-muted-text: #555;
+  --site-soft-text: #666;
+  --site-faint-text: #777;
+  --site-author-text: rgba(0, 0, 0, 0.75);
+  --site-pub-author-text: rgba(0, 0, 0, 0.9);
+  --site-card-bg: #fff;
+  --site-heading-bg: #fcfcfc;
+  --site-accent: #632991;
+  --site-accent-hover: #8244b8;
+  --site-section-title: #2850a7;
+  --site-label: #1a237e;
+  --site-link: #0645ad;
+  --site-icon-bg: #f9f9f9;
+  --site-embed-bg: #f8f8f8;
+  --site-intro-start: #f9f9f9;
+  --site-intro-end: #f3f3f3;
+  --site-button-start: #f7f7f7;
+  --site-button-end: #efefef;
+  --site-button-hover-start: #f0f0f0;
+  --site-button-hover-end: #e8e8e8;
+  --site-border: rgba(0, 0, 0, 0.05);
+  --site-embed-border: rgba(0, 0, 0, 0.08);
+  --site-line: #eee;
+  --site-section-line: #f0f0f0;
+  --site-button-border: #e5e5e5;
+  --site-button-hover-border: #d5d5d5;
+}
+
+html[data-theme="dark"] {
+  --global-masthead-link-color: #ddd;
+  --global-masthead-link-color-hover: #fff;
+  --site-body-bg: var(--global-bg-color);
+  --site-body-text: #eee;
+  --site-strong-text: #fff;
+  --site-secondary-text: #e0e0e0;
+  --site-muted-text: #d0d0d0;
+  --site-soft-text: #c4c4c4;
+  --site-faint-text: #b8b8b8;
+  --site-author-text: #ddd;
+  --site-pub-author-text: #eee;
+  --site-card-bg: #363636;
+  --site-heading-bg: var(--global-bg-color);
+  --site-accent: #d2acf2;
+  --site-accent-hover: #e4ccf7;
+  --site-section-title: #b5caff;
+  --site-label: #c0c8ff;
+  --site-link: #a9caff;
+  --site-icon-bg: #505050;
+  --site-embed-bg: #393939;
+  --site-intro-start: #3d3743;
+  --site-intro-end: #353238;
+  --site-button-start: #4c4c4c;
+  --site-button-end: #424242;
+  --site-button-hover-start: #58505f;
+  --site-button-hover-end: #4c4453;
+  --site-border: rgba(255, 255, 255, 0.14);
+  --site-embed-border: rgba(255, 255, 255, 0.2);
+  --site-line: #606060;
+  --site-section-line: #606060;
+  --site-button-border: #686868;
+  --site-button-hover-border: #8c7b9c;
+}
+
+/* Medal cards retain their original gold/silver/bronze backgrounds in both modes. */
+.medal-card {
+  --site-body-text: #333;
+  --site-muted-text: #555;
+}
+
+/* Preserve the site's original proportions while using the new theme. */
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--site-body-bg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 0.5em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+.page__title {
+  margin-top: 0;
+}
+
+.masthead__inner-wrap {
+  padding: 0.5em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.masthead__menu-item a {
+  white-space: nowrap;
+}
+
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  color: var(--global-masthead-link-color);
+  font-weight: normal;
+  border-bottom: 0;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.masthead__menu-item--lg.selected a {
+  font-weight: 700;
+}
+
+#main {
+  flex: 1 0 auto;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.sidebar {
+  margin-top: 0;
+}
+
+.sidebar h2, .sidebar h3, .sidebar p, .sidebar li {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.sidebar p, .sidebar li {
+  font-size: 1em;
+}
+
+.author__avatar {
+  width: 75px;
+}
+
+.author__avatar img {
+  border-radius: 10%;
+}
+
+.author__content {
+  min-width: 120px;
+}
+
+.author__urls-wrapper .btn {
+  color: var(--site-body-text) !important;
+  background: var(--site-card-bg);
+  border-color: var(--site-button-border) !important;
+  font-size: 0.85rem;
+}
+
+.author__urls-wrapper .btn:hover {
+  color: var(--site-accent) !important;
+  background: var(--site-button-hover-start);
+}
+
+.sidebar .author__name {
+  font-size: 1.4em;
+}
+
+@media (min-width: 925px) {
+  .page {
+    padding-right: 0;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: calc(var(--site-masthead-height, 60px) + 1em);
+    height: auto;
+    overflow-y: visible;
+    padding-top: 0;
+  }
+
+  .author__avatar {
+    width: auto;
+  }
+}
+
+/* Keep the footer below long pages and at the bottom of short pages. */
+.page__footer {
+  position: static;
+  float: none;
+  flex-shrink: 0;
+}
+
+.page__footer-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.page__footer-info {
+  min-width: 0;
+}
+
+/* The provider generates this image; keep its footprint small in the footer. */
+.visitor-map {
+  width: 160px;
+  max-width: 100%;
+  justify-self: end;
+  text-align: center;
+}
+
+.visitor-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.visitor-map__unavailable {
+  margin: 0;
+  color: var(--site-muted-text);
+  font-size: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .page__footer-content {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1em;
+  }
+
+  .visitor-map {
+    width: 140px;
+  }
+}
+
+.page__content img {
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .page__content {
+    overflow-wrap: anywhere;
+  }
+}
